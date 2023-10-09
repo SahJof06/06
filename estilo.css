@@ -1,6 +1,5 @@
 html {
     background-color: black;
-    font-family: 'Dancing Script', cursive;
     font-family: 'Paprika', cursive;
     text-shadow: 2px 2px 10px black;
 
@@ -35,4 +34,11 @@ p {
 
 .hijo {
     padding: 10px;
+}
+footer{
+    background-color: black;
+    padding: 1%;
+    border: lightseagreen solid 15px;
+    font-size: 20px;
+    text-align: center;
 }
