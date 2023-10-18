@@ -71,7 +71,47 @@
             color: #FFF;
             font-size: 25px;
             text-decoration: underline;
+            margin-bottom: 35px;
         }
+
+
+        #colornav {
+            background-color: #252422;
+            padding-top: 50px;
+            margin-top: 20px;
+        }
+        nav a {
+            display: inline-block;
+            font-size: 25px;
+            text-transform: uppercase;
+            text-decoration: none;
+            color: #ffffff;
+        }
+
+        #first {
+            display: flex;
+            text-align: right;
+            text-decoration: none;
+            list-style: none;
+            padding-bottom: 10px;
+            justify-content: space-evenly;
+            padding-left: 105px;
+            text-shadow: 0px 0px 30px rgb(255, 255, 255);
+            
+        }
+
+        #second {
+
+            display: inline;
+            flex: 1;
+            color: whitesmoke;
+            height: 50px;
+            
+            margin-bottom: 10px;
+            
+        }
+
+       
     </style>
 </head>
 
@@ -82,10 +122,18 @@
         </div>
         <div class="container-title">❁ Tattoo´s Style ❁</div>
     </header>
+    <nav>
+        <ul id="first">
+            <li><a href="#flowers">Flowers</a></li>
+            <li><a href="#runessymbols">Runes/Symbols</a></li>
+            <li><a href="#animalinsect">Animals/Insects</a></li>
+        </ul>
+    </nav>
+
 
     <main>
-        <section> <br>
-            <div class="subtitle">Animals / Insects</div> <br>
+        <section id="animalinsect">
+            <div class="subtitle">Animals / Insects</div>
             <div class="container">
                 <div class="producto">
                     <div class="nombre">❁</div>
@@ -118,8 +166,8 @@
         </section>
 
 
-        <section>
-            <div class="subtitle"> Symbols / Runes</div> <br>
+        <section id="runessymbols">
+            <div class="subtitle"> Symbols / Runes</div>
             <div class="container">
                 <div class="producto">
                     <div class="nombre">❁</div>
@@ -149,11 +197,11 @@
                     <a href="#">Details</a>
                 </div>
             </div>
-            </div>
 
 
-            <section>
-                <div class="subtitle">Flowers</div> <br>
+
+            <section id="flowers">
+                <div class="subtitle">Flowers</div>
                 <div class="container">
                     <div class="producto">
                         <div class="nombre">❁</div>
@@ -186,6 +234,15 @@
                 </div>
             </section>
     </main>
+    <footer>
+        <nav id="colornav">
+            <ul id="second">
+                <li>Redes Sociales: <br> <a href="#"><img src="/assets/instagram.png" width="30px" height="30px"> <img
+                            src="/assets/gorjeo.png" width="30px" height="30px"> </a></li>
+                <p><i>©Copyright 2077</i> de Sahir Jofre. Todos los derechos sin reservas.</p>
+            </ul>
+        </nav>
+    </footer>
 </body>
 
 </html>
